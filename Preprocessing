@@ -1,0 +1,3 @@
+The empty-environment/noise components recorded before the experiments were removed during the preprocessing stage. Therefore, this repository provides the processed dataset used for training, validation, testing, and analysis, rather than separate empty-environment/noise files.
+
+The deposited processed dataset is sufficient to reproduce the model development, data fusion, evaluation, PCA analysis, and correlation matrix analysis reported in the manuscript.
