@@ -1,0 +1,9 @@
+The repository provides the processed fused dataset and MATLAB scripts required to reproduce the main computational workflow of the study. The dataset was prepared after preprocessing and noise removal. The provided files support the reproduction of the following steps:
+
+Laser window generation
+Acoustic channel averaging
+Feature extraction
+Early laser-acoustic feature fusion
+Train-test split usage
+PCA-based feature analysis
+Correlation matrix analysis
