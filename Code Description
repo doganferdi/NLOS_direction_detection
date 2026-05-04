@@ -1,0 +1,29 @@
+The MATLAB files in the code/ directory perform the main processing and analysis steps used in the study.
+
+lazer_windows_create36_preproces.m
+
+This script creates 36-sample laser windows from the preprocessed laser signal. The window-based representation is used to capture local temporal variations in the laser photon-count sequence.
+
+acoustic_import_8_avgchannel.m
+
+This script imports the eight-channel acoustic chirp recordings and converts them into a single-channel representation by averaging the eight channels.
+
+laser_acoustic_dataset_create.m
+
+This script extracts features from both laser and acoustic signals and creates the combined laser-acoustic dataset. Laser and acoustic features are calculated separately and then prepared for fusion.
+
+laser_acoustic_data_fusion.m
+
+This script performs early feature-level fusion by combining laser-derived and acoustic-derived features into a single fused feature vector.
+
+acoustic_channel_graph.m
+
+This script generates graphical representations of the acoustic channel data and the averaged acoustic signal.
+
+evaluation_pca.m
+
+This script performs Principal Component Analysis (PCA) on the fused feature dataset and generates the PCA-based explained variance analysis.
+
+evaluation_corelation_matrix.m
+
+This script calculates and visualizes the correlation matrix of the extracted fused features.
