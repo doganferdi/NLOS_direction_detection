@@ -1,0 +1,12 @@
+The dataset/processed/ directory contains the processed laser-acoustic dataset used in the study.
+
+The dataset includes features extracted from laser and acoustic chirp signals. Laser data were represented using 36-sample windows, and acoustic data were obtained from eight-channel acoustic recordings by averaging the channels. Features extracted from both signal sources were then combined into a fused feature representation.
+
+The final dataset contains laser-derived features, acoustic-derived features, and the corresponding class labels for four human orientation classes:
+
+Behind
+Front
+Left
+Right
+
+The file dataset/splits/train80_test20.csv contains the train-test partition information used in the study. In this split, 80% of the dataset was used for model development and 20% was used as the independent test set.
