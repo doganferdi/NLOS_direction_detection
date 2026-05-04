@@ -1,0 +1,33 @@
+Clone this repository:
+git clone https://github.com/YOUR_USERNAME/Early-Fusion-Laser-Acoustic-Human-Orientation-Detection.git
+Open MATLAB.
+Set the repository folder as the current working directory.
+Run the MATLAB scripts according to the required analysis step.
+
+For laser window creation:
+
+run('code/lazer_windows_create36_preproces.m')
+
+For acoustic signal import and channel averaging:
+
+run('code/acoustic_import_8_avgchannel.m')
+
+For laser-acoustic feature extraction and dataset creation:
+
+run('code/laser_acoustic_dataset_create.m')
+
+For early feature-level fusion:
+
+run('code/laser_acoustic_data_fusion.m')
+
+For acoustic channel visualization:
+
+run('code/acoustic_channel_graph.m')
+
+For PCA-based feature analysis:
+
+run('code/evaluation_pca.m')
+
+For correlation matrix analysis:
+
+run('code/evaluation_corelation_matrix.m')
