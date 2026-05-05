@@ -1,4 +1,5 @@
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.20025365
 # NLOS Direction Detection
 
 Raw code and representative processed dataset for the study:
@@ -28,7 +29,7 @@ The classification task includes four human orientation classes:
 The final fused dataset was used to train, validate, and test machine learning/artificial intelligence models and the proposed LAO-Net model.
 
 ## Repository Structure
-
+Zenodo DOI: https://doi.org/10.5281/zenodo.20025365
 ```text
 dataset/
   processed/
